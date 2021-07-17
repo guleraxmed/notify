@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green: #2dcb71;
+    --fh :'Bebas Neue', cursive;;
+    --fo:'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+.green-hr{
+    background-color: var(--green);
+    height: 10px;
+}
+
+header{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+
+header .container{
+    padding-left: 120px;
+}
+
+header img{
+    margin-top: 150px;
+}
+
+header p{
+font: 500 24px var(--fh);
+width: 469px;
+line-height: 36px;
+color: #ffffff;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+
+.social a{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.6;
+    position: relative;
+    margin-left: 10px;
+}
+
+.social i{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social a:hover{
+    background-color: var(--green) !important;
+    opacity: 1;
+}
+
+.social{
+    padding-bottom: 135px;
+}
+
+/* section css start */
+.proporties {
+    display: flex;
+    justify-content: space-between;
+
+}
+.proporties div{
+    text-align: center;
+}
+
+.proporties a{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: var(--green);
+    opacity: 0.6;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+.proporties i{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.proporties h1{
+    font: 600 22px var(--fh);
+    line-height: 18px;
+    color: #222222;
+    padding: 30px 0;
+
+}
+.proporties p{
+    width: 310px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Helvetica Neue"
+
+}
+/* updates css start */
+
+#updates{
+
+    background-color: #e3e3e3;
+}
+#updates1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+video{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+form{
+    display: flex;
+}
+#updates h1{
+    font: 600 22px var(--fh);
+    line-height: 18px;
+    color: #222222;
+}
+ #updates p{
+    width: 541px;
+    height: 184px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Helvetica Neue";
+    padding: 30px 0;
+ }
+ form input{
+    font-size: 18px;
+    line-height: 18px;
+    color: #848484;
+    font-family: var(--fo);
+    padding: 30px 0 30px 30px;
+    width: 446px;
+    height: 56px;
+    border-radius: 15px 0 0 15px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+ }
+ button{
+    font: 700 22px var(--fo);
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #2dcb71;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    width: 140px;
+ }
+ 
+#end div{
+    text-align: center;
+}
+#end p{
+    width: 887px;
+height: 103px;
+font-size: 18px;
+line-height: 30px;
+color: #848484;
+font-style: italic;
+font-family: "Helvetica Neue";
+padding: 60px 0 30px 0;
+}
+
+#img{
+    
+    display: flex;
+    align-items: center;
+    padding:  30px 80px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#pname{
+
+    font-size: 18px;
+line-height: 20px;
+color: #2e2e2e;
+font-weight: 700;
+font-family: "Raleway";
+}
+#end h1{
+    font-size: 24px;
+line-height: 24px;
+color: #000000;
+font-weight: 600;
+font-family: var(--fh);
+text-align: center;
+}
+#end a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #d4d4d4 !important;
+} 
+#end a:hover{
+    background-color: var(--green) !important;
+    cursor: pointer;
+}
+footer{
+    background-color: #e3e3e3;
+}
+footer ul {
+display: flex;
+justify-content: center;
+list-style: none;
+padding: 60px 0;
+}
+footer ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Helvetica Neue";
+    padding: 0 30px;
+}
